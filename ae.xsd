@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2026-04-20 -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric'
+  xmlns:num='http://www.xbrl.org/dtr/type/numeric'
+  xmlns:xbrldt='http://xbrl.org/2005/xbrldt'
+
+  xmlns:ae='https://github.com/seattlemethod/ae'
+  targetNamespace='https://github.com/seattlemethod/ae'
+
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <documentation>Accounting Equation</documentation>
+    <appinfo>
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+  <import namespace='http://www.xbrl.org/2003/linkbase' schemaLocation='http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd' />
+  <import namespace='http://xbrl.org/2005/xbrldt' schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' />
+  <import namespace='http://www.xbrl.org/dtr/type/non-numeric' schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' />
+  <import namespace='http://www.xbrl.org/dtr/type/numeric' schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' />
+
+  <element id='ae_Assets' name='Assets' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='debit'  nillable='true' />
+  <element id='ae_BalanceSheetArithmetic' name='BalanceSheetArithmetic' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration'  abstract='true' nillable='true' />
+  <element id='ae_BalanceSheetHypercube' name='BalanceSheetHypercube' type='xbrli:stringItemType' substitutionGroup='xbrldt:hypercubeItem' xbrli:periodType='duration'  abstract='true' nillable='true' />
+  <element id='ae_BalanceSheetLineItems' name='BalanceSheetLineItems' type='xbrli:stringItemType' substitutionGroup='xbrli:item' xbrli:periodType='duration'  abstract='true' nillable='true' />
+  <element id='ae_Equity' name='Equity' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit'  nillable='true' />
+  <element id='ae_Liabilities' name='Liabilities' type='xbrli:monetaryItemType' substitutionGroup='xbrli:item' xbrli:periodType='instant' xbrli:balance='credit'  nillable='true' />
+
+</schema>

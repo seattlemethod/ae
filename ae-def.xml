@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2024-04-20 -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='ae-roles.xsd#BalanceSheet' roleURI='https://github.com/seattlemethod/ae/role/BalanceSheet'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://www.xbrl.org/2005/xbrldt-2005.xsd#all' arcroleURI='http://xbrl.org/int/dim/arcrole/all'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension' arcroleURI='http://xbrl.org/int/dim/arcrole/hypercube-dimension'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain' arcroleURI='http://xbrl.org/int/dim/arcrole/dimension-domain'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member' arcroleURI='http://xbrl.org/int/dim/arcrole/domain-member'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default' arcroleURI='http://xbrl.org/int/dim/arcrole/dimension-default'/>
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/role/BalanceSheet'>
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetLineItems' xlink:label='ae_BalanceSheetLineItems' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Assets' xlink:label='ae_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='ae_BalanceSheetLineItems' xlink:to='ae_Assets' order='1' use='optional'  />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/role/BalanceSheet'>
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetLineItems' xlink:label='ae_BalanceSheetLineItems' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Liabilities' xlink:label='ae_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='ae_BalanceSheetLineItems' xlink:to='ae_Liabilities' order='2' use='optional'  />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/role/BalanceSheet'>
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetLineItems' xlink:label='ae_BalanceSheetLineItems' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Equity' xlink:label='ae_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/domain-member' xlink:from='ae_BalanceSheetLineItems' xlink:to='ae_Equity' order='3' use='optional'  />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/role/BalanceSheet'>
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetLineItems' xlink:label='ae_BalanceSheetLineItems' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetHypercube' xlink:label='ae_BalanceSheetHypercube' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrl.org/int/dim/arcrole/all' xlink:from='ae_BalanceSheetLineItems' xlink:to='ae_BalanceSheetHypercube' order='4' use='optional' xbrldt:contextElement='segment' xbrldt:closed='true' />
+   </link:definitionLink>
+
+</link:linkbase>

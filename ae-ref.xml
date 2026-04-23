@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2024-04-20 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ref='http://www.xbrl.org/2004/ref' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2004/ref http://www.xbrl.org/2004/ref-2004-08-10.xsd'>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Assets' xlink:label='ae_Assets' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ae_Assets' xlink:to='ae_Assets_lbl' />
+    <reference xlink:type='resource' xlink:label='ae_Assets_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+       <ref:Publisher>Wikipedia</ref:Publisher>
+       <ref:Name>Accounting Equation</ref:Name>
+       <ref:URI>https://en.wikipedia.org/wiki/Accounting_equation</ref:URI>
+       <ref:URIDate>2022-06-10</ref:URIDate>
+    </reference>
+  </referenceLink>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Equity' xlink:label='ae_Equity' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ae_Equity' xlink:to='ae_Equity_lbl' />
+    <reference xlink:type='resource' xlink:label='ae_Equity_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+      <ref:Publisher>Wikipedia</ref:Publisher>
+      <ref:Name>Accounting Equation</ref:Name>
+       <ref:URI>https://en.wikipedia.org/wiki/Accounting_equation</ref:URI>
+       <ref:URIDate>2022-06-10</ref:URIDate>
+    </reference>
+  </referenceLink>
+
+  <referenceLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Liabilities' xlink:label='ae_Liabilities' />
+    <referenceArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ae_Liabilities' xlink:to='ae_Liabilities_lbl' />
+    <reference xlink:type='resource' xlink:label='ae_Liabilities_lbl' xlink:role='http://www.xbrl.org/2003/role/reference'>
+      <ref:Publisher>Wikipedia</ref:Publisher>
+      <ref:Name>Accounting Equation</ref:Name>
+       <ref:URI>https://en.wikipedia.org/wiki/Accounting_equation</ref:URI>
+       <ref:URIDate>2022-06-10</ref:URIDate>
+    </reference>
+  </referenceLink>
+
+</linkbase>

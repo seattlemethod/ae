@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2024-04-20 -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+
+  <link:arcroleRef xlink:type='simple' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm-arcroles.xsd#has-part' arcroleURI='https://github.com/seattlemethod/universal/cm/arcrole/has-part'/>
+
+   <link:roleRef xlink:type='simple' xlink:href='typeSubtype-extendedLinkRoles.xsd#TypeSubtypeAssociations' roleURI='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations'/>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='cm_Disclosure' order='1' use='optional' />
+   </link:definitionLink>
+
+
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Concept' xlink:label='cm_Concept' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Thing' xlink:to='cm_Concept' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Concept' xlink:label='cm_Concept' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Assets' xlink:label='ae_Assets' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Concept' xlink:to='ae_Assets' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Concept' xlink:label='cm_Concept' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Liabilities' xlink:label='ae_Liabilities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Concept' xlink:to='ae_Liabilities' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Concept' xlink:label='cm_Concept' />
+      <link:loc xlink:type='locator' xlink:href='ae.xsd#ae_Equity' xlink:label='ae_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Concept' xlink:to='ae_Equity' order='5' use='optional' />
+   </link:definitionLink>
+
+
+</link:linkbase>

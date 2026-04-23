@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2024-04-20 -->
+<schema
+  xmlns='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli='http://www.xbrl.org/2003/instance'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:dm='https://github.com/seattlemethod/dm'
+  xmlns:generic='http://xbrl.org/2008/generic'
+  targetNamespace='https://github.com/seattlemethod/dm'
+  elementFormDefault='qualified'
+  attributeFormDefault='unqualified'>
+  <annotation>
+    <appinfo>
+
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/definitionLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='dm-BalanceSheet-rules-def.xml'  xlink:title='BalanceSheet'/>
+
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='disclosures-label.xml'  xlink:title='Label linkbase for disclosures'/>
+      <link:linkbaseRef xlink:type='simple' xlink:role='http://www.xbrl.org/2003/role/labelLinkbaseRef' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='ae-lab.xml'  xlink:title='Label linkbase for taxonomy schema'/>
+
+    </appinfo>
+  </annotation>
+  <import namespace='http://www.xbrl.org/2003/instance' schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' />
+</schema>

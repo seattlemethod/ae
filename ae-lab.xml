@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 2024-04-20 -->
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+  <roleRef xlink:type='simple' xlink:href='http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel' roleURI='http://www.xbrl.org/2009/role/negatedLabel' />
+  <roleRef xlink:type='simple' xlink:href='http://www.xbrl.org/lrr/role/restated-2006-02-21.xsd#restatedLabel' roleURI='http://www.xbrl.org/2006/role/restatedLabel' />
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Assets' xlink:label='ae_Assets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Assets' xlink:to='ae_Assets_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Assets_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/documentation'>Assets are probable future economic beneits obtained or controlled by a particular entity as a result of past transactions or events.</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Assets' xlink:label='ae_Assets' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Assets' xlink:to='ae_Assets_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Assets_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Assets</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetArithmetic' xlink:label='ae_BalanceSheetArithmetic' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_BalanceSheetArithmetic' xlink:to='ae_BalanceSheetArithmetic_lbl' />
+    <label xlink:type='resource' xlink:label='ae_BalanceSheetArithmetic_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Balance Sheet [Arithmetic]</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetHypercube' xlink:label='ae_BalanceSheetHypercube' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_BalanceSheetHypercube' xlink:to='ae_BalanceSheetHypercube_lbl' />
+    <label xlink:type='resource' xlink:label='ae_BalanceSheetHypercube_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Balance Sheet [Hypercube]</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_BalanceSheetLineItems' xlink:label='ae_BalanceSheetLineItems' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_BalanceSheetLineItems' xlink:to='ae_BalanceSheetLineItems_lbl' />
+    <label xlink:type='resource' xlink:label='ae_BalanceSheetLineItems_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Balance Sheet [Line Items]</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Equity' xlink:label='ae_Equity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Equity' xlink:to='ae_Equity_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Equity_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/documentation'>Equity or net assets is the residual interest in the assets of an entity that remains after deducting its liabilities. In a business enterprise, the equity is the ownership interest.</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Equity' xlink:label='ae_Equity' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Equity' xlink:to='ae_Equity_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Equity_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Equity</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Liabilities' xlink:label='ae_Liabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Liabilities' xlink:to='ae_Liabilities_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Liabilities_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/documentation'>Liabilities are probable future sacrifices of economic benefits arising from present obligations of a particular entity to transfer assets or provide services to other entities in the future as a result of past transactions or events.</label>
+  </labelLink>
+
+  <labelLink xlink:type='extended' xlink:role='http://www.xbrl.org/2003/role/link'>
+    <loc xlink:type='locator' xlink:href='ae.xsd#ae_Liabilities' xlink:label='ae_Liabilities' />
+    <labelArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-label' xlink:from='ae_Liabilities' xlink:to='ae_Liabilities_lbl' />
+    <label xlink:type='resource' xlink:label='ae_Liabilities_lbl' xml:lang='en-US' xlink:role='http://www.xbrl.org/2003/role/label'>Liabilities</label>
+  </labelLink>
+
+</linkbase>
