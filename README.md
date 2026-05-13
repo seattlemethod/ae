@@ -8,9 +8,9 @@ The accounting equation is the foundation of the double-entry bookkeeping system
 
 [Accounting equation on wikidata](https://www.wikidata.org/wiki/Q864368)
 
-Asset <https://www.wikidata.org/wiki/Q46737>
-Liability <https://www.wikidata.org/wiki/Q96776939>
-Equity <https://www.wikidata.org/wiki/Q827451>
+>Asset <https://www.wikidata.org/wiki/Q46737>
+>Liability <https://www.wikidata.org/wiki/Q96776939>
+>Equity <https://www.wikidata.org/wiki/Q827451>
 
 
 See also:
