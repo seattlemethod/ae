@@ -13,6 +13,13 @@
    </link:definitionLink>
 
 
+   <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
+      <link:loc xlink:type='locator' xlink:href='disclosures.xsd#disclosures_BalanceSheet' xlink:label='disclosures_BalanceSheet' />
+      <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Disclosure' xlink:label='cm_Disclosure' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/general-special' xlink:from='cm_Disclosure' xlink:to='disclosures_BalanceSheet' order='2' use='optional' />
+   </link:definitionLink>
+
+
 
    <link:definitionLink xlink:type='extended' xlink:role='https://github.com/seattlemethod/ae/typeSubtype/elr/role/TypeSubtypeAssociations' xlink:title='Type-Subtype'>
       <link:loc xlink:type='locator' xlink:href='https://raw.githubusercontent.com/seattlemethod/universal/refs/heads/main/cm.xsd#cm_Thing' xlink:label='cm_Thing' />
